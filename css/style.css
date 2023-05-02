@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Space+Mono&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Space Mono', monospace; */
+    /* color: white;
+    background-color: black; */
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    height: fit-content;
+  }
+.logo{
+    float: right;
+}  
+  nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+  }
+  
+  nav a:hover {
+    background-color: #2c2b2b;
+    color: white;
+
+  }
+
+.Container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.Text1 {
+    color: white;
+    font-size: 50px;
+    padding-right: 20px;
+    text-overflow: inherit;
+    position: relative;
+    animation: mymove 3s infinite;
+  }
+
+  @keyframes mymove {
+    from {left: -30px;}
+    to {left: 30px;}
+  /*   from {background-color: red;}
+    to {background-color: yellow;} */
+  }
+
+  .Container2{
+
+  }
+
+  .Container3{
+    background-color: black;
+    color: white;
+  }
+
+  footer{
+  padding: 1rem;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
